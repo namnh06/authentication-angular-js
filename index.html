@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="bookExchange">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="app/app.css">
+</head>
+
+<body>
+
+  <ng-view></ng-view>
+  <!-- CORE -->
+  <script src="node_modules/angular/angular.min.js"></script>
+  <script src="node_modules/angular-route/angular-route.min.js"></script>
+  <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- UIB MODAL -->
+  <script src="app/shared/uib-modal/uib-modal.module.js"></script>
+
+  <!-- APP -->
+  <script src="app/app.module.js"></script>
+  <script src="app/app.config.js"></script>
+
+  <!-- HOME -->
+  <script src="app/home/home.module.js"></script>
+  <script src="app/home/home.component.js"></script>
+  <script src="app/home/home.controller.js"></script>
+
+  <!-- AUTH -->
+  <script src="app/auth/auth.module.js"></script>
+  <script src="app/auth/auth.component.js"></script>
+  <script src="app/auth/auth.controller.js"></script>
+
+  <!-- LOGIN -->
+  <script src="app/auth/login/login.component.js"></script>
+  <script src="app/auth/login/login.controller.js"></script>
+
+  <!-- HEADER -->
+  <script src="app/shared/header/header.module.js"></script>
+  <script src="app/shared/header/header.component.js"></script>
+  <script src="app/shared/header/header.controller.js"></script>
+
+  <!-- NAVIGATION BAR -->
+  <script src="app/shared/header/navigation-bar/navigation-bar.component.js"></script>
+  <script src="app/shared/header/navigation-bar/navigation-bar.controller.js"></script>
+</body>
+
+</html>

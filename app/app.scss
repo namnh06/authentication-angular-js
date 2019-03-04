@@ -1,0 +1,90 @@
+.bg-dark {
+  background-color: #343a40 !important
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.w-50 {
+  width: 50% !important;
+}
+
+.mt-3 {
+  margin-top: 1.5rem !important;
+}
+
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.p-5 {
+  padding: 3rem !important;
+}
+
+.Header {
+  &__Row {
+    display: flex;
+
+    &__Col {
+      display: flex;
+
+      &__First {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
+
+.Footer {
+  &__Row {
+    display: flex;
+
+    &__Col {
+      &__Second {
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+  }
+}
+
+.Index {
+  &__Row {
+    &__Col {
+      &__Table {
+        &__TBody {
+          &__TRow {
+            &__TData {
+              display: flex;
+              justify-content: space-evenly;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.Login {
+  height: 100vh;
+
+  &__Row {
+    height: 100%;
+
+    &__Col {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &__Form {
+        // display: flex;
+        // flex-direction: column;
+        // align-items: center;
+        border-radius: 2rem;
+      }
+    }
+  }
+}

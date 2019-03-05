@@ -3,15 +3,12 @@ angular
   .config(['$routeProvider', function ($routeProvider) {
     $routeProvider
       .when('/', {
-        template: '<home></home>'
-      })
-      .when('/home', {
-        template: '<home></home>'
+        template: '<login></login>'
       })
       .when('/login', {
         template: '<login></login>'
       })
       .otherwise(
-        '/home'
+        '/'
       );
   }]);

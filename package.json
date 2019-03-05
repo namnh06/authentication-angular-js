@@ -1,7 +1,7 @@
 {
-  "name": "book-exchange",
+  "name": "authenticate-angular-js",
   "version": "1.0.0",
-  "description": "book exchange web application written in Angular JS",
+  "description": "Authenticate Angular JS is a web application written in Angular JS",
   "main": "app/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,7 @@
     "angular": "^1.7.7",
     "angular-route": "^1.7.7",
     "angular-ui-bootstrap": "^2.5.6",
-    "bootstrap": "3.3.7",
-    "jquery": "1.*.*"
+    "bootstrap": "^3.4.1",
+    "jquery": "^3.3.1"
   }
 }

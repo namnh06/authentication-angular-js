@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="bookExchange">
+<html lang="en" ng-app="authenticate">
 
 <head>
   <meta charset="UTF-8">
@@ -27,6 +27,9 @@
   <script src="app/app.module.js"></script>
   <script src="app/app.config.js"></script>
 
+  <!-- SERVICE -->
+  <script src="app/services/auth.service.js"></script>
+
   <!-- AUTH -->
   <script src="app/auth/auth.module.js"></script>
   <script src="app/auth/auth.component.js"></script>
@@ -35,6 +38,10 @@
   <!-- LOGIN -->
   <script src="app/auth/login/login.component.js"></script>
   <script src="app/auth/login/login.controller.js"></script>
+
+  <!-- REGISTER -->
+  <script src="app/auth/register/register.component.js"></script>
+  <script src="app/auth/register/register.controller.js"></script>
 
   <!-- HEADER -->
   <script src="app/shared/header/header.module.js"></script>

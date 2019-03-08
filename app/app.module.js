@@ -1,5 +1,5 @@
 angular
-  .module('bookExchange', [
+  .module('authenticate', [
     'ngRoute',
     'auth'
   ]);

@@ -1,5 +1,5 @@
 angular
-  .module('bookExchange')
+  .module('authenticate')
   .config(['$routeProvider', function ($routeProvider) {
     $routeProvider
       .when('/', {
@@ -7,6 +7,9 @@ angular
       })
       .when('/login', {
         template: '<login></login>'
+      })
+      .when('/register', {
+        template: '<register></register>'
       })
       .otherwise(
         '/'

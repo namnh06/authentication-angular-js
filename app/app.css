@@ -13,8 +13,11 @@ body:before {
 .text-white {
   color: #fff; }
 
+.font-weight-bold {
+  font-weight: bold; }
+
 .bg-dark {
-  background-color: #343a40 !important; }
+  background-color: rgba(52, 58, 64, 0.9) !important; }
 
 .w-100 {
   width: 100% !important; }
@@ -49,19 +52,30 @@ body:before {
   display: flex;
   justify-content: space-evenly; }
 
-.Login {
+.Login,
+.Register {
   height: 100vh; }
-  .Login__Row {
+  .Login__Row,
+  .Register__Row {
     height: 100%; }
-    .Login__Row__Col {
+    .Login__Row__Col,
+    .Register__Row__Col {
       height: 100%;
       display: flex;
       justify-content: center;
       align-items: center; }
-      .Login__Row__Col__Form {
+      .Login__Row__Col__Form,
+      .Register__Row__Col__Form {
         display: flex;
         flex-direction: column;
         align-items: center;
         border-radius: 2rem; }
+        .Login__Row__Col__Form__Form__Group__Text__Create,
+        .Register__Row__Col__Form__Form__Group__Text__Create {
+          color: lightcoral;
+          text-decoration: underline; }
+          .Login__Row__Col__Form__Form__Group__Text__Create:hover,
+          .Register__Row__Col__Form__Form__Group__Text__Create:hover {
+            color: lightgreen !important; }
 
 /*# sourceMappingURL=app.css.map */

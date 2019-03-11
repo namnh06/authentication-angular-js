@@ -10,8 +10,7 @@
         </div>
         <div class="form-inline mt-5 w-50">
           <div class="form-group w-100">
-            <input type="name" name="name" id="name" class="form-control w-100" placeholder="Name" ng-model="loginFieldForm.name"
-              required>
+            <input type="name" name="name" id="name" class="form-control w-100" placeholder="Name" required>
             <span class="text-danger" ng-show="registerForm.name.$touched && registerForm.name.$error.required">Name
               is
               required</span>
@@ -19,8 +18,7 @@
         </div>
         <div class="form-inline mt-3 w-50">
           <div class="form-group w-100">
-            <input type="email" name="email" id="email" class="form-control w-100" placeholder="Email" ng-model="loginFieldForm.name"
-              required>
+            <input type="email" name="email" id="email" class="form-control w-100" placeholder="Email" required>
             <span class="text-danger" ng-show="registerForm.email.$touched && registerForm.email.$error.required">Email
               is
               required</span>
@@ -28,9 +26,18 @@
         </div>
         <div class="form-inline mt-3 w-50">
           <div class="form-group w-100">
-            <input type="password" name="password" id="password" class="form-control w-100" placeholder="Password" name="loginFieldForm.password"
+            <input type="password" name="password" id="password" class="form-control w-100" placeholder="Password" name="password"
               required>
             <span class="text-danger" ng-show="registerForm.password.$touched && registerForm.password.$error.required">Password
+              is
+              required</span>
+          </div>
+        </div>
+        <div class="form-inline mt-3 w-50">
+          <div class="form-group w-100">
+            <input type="password" name="rePassword" id="rePassword" class="form-control w-100" placeholder="Re-Password"
+              name="rePassword" required>
+            <span class="text-danger" ng-show="registerForm.password.$touched && registerForm.password.$error.required">Re-Password
               is
               required</span>
           </div>
